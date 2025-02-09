@@ -2,6 +2,9 @@
 //January 29,2025
 // M5: Programming Assignment
 
+//The purpose of this code is to find and return the location of the
+//largest and smallest elements in both 2D arrays of integers and doubles.
+
 public class ArrayLocation {
 
     // Here I have the method to find the location of the largest element in a 2D double array
@@ -111,3 +114,6 @@ public class ArrayLocation {
         System.out.println("Smallest element in int array is at: (" + smallestLocationInt[0] + ", " + smallestLocationInt[1] + ")");
     }
 }
+
+
+//Reference: https://www.geeksforgeeks.org/given-an-array-of-pairs-find-all-symmetric-pairs-in-it/
